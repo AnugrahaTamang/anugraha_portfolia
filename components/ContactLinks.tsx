@@ -1,5 +1,5 @@
 // components/ContactLinks.tsx
-import { Github, Linkedin, Mail, Globe, Instagram } from "lucide-react";
+import { Github, Linkedin, Mail, Instagram } from "lucide-react";
 import Link from "next/link";
 
 const contactLinks = [

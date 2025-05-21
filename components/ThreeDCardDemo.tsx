@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 export function ThreeDCardDemo() {
@@ -22,8 +23,8 @@ export function ThreeDCardDemo() {
           FOR DATABASE
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
-          <img
-            src="./barber.png"
+          <Image
+            src="/image/barber.png"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

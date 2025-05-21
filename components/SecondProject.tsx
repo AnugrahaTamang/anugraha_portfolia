@@ -2,6 +2,7 @@
 
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import Image from "next/image";
 
 export function SecondProject() {
   return (
@@ -26,9 +27,10 @@ export function SecondProject() {
           rotateZ={-10}
           className="w-full mt-4"
         >
-          <img
-            src="./filterinig-ecommerce-site.png"
+          <Image
+            src="/image/filterinig-ecommerce-site.png"
             width="1000"
+            height="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail"
           />
