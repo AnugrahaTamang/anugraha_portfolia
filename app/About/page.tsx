@@ -17,15 +17,15 @@ const About = () => {
           About <span className="text-blue-600">Me</span>
         </h2>
         <p className="text-lg leading-7 mb-8 text-center">
-          Hi, I'm <span className="font-semibold">Anugraha Tamang</span>, a web
-          developer with skills in
+          Hi, I&lsquo;m <span className="font-semibold">Anugraha Tamang</span>,
+          a web developer with skills in
           <span className="font-medium text-blue-500">
             {" "}
             JavaScript, Node.js, and Express{" "}
           </span>
           . I love crafting backend systems and exploring modern web
-          technologies. I'm always excited to collaborate, contribute, and solve
-          real-world challenges through code.
+          technologies. I&lsquo;m always excited to collaborate, contribute, and
+          solve real-world challenges through code.
         </p>
 
         <div className="grid md:grid-cols-3 gap-6">
